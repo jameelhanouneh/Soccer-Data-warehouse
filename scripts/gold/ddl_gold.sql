@@ -152,7 +152,6 @@ DROP VIEW gold.players;
 GO
 CREATE VIEW gold.players AS
 SELECT 
-	player_id,
 	team_id,
 	name AS player_name,
 	position,
