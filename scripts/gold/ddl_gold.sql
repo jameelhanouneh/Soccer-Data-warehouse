@@ -1,5 +1,5 @@
 /*===============================================================================
-  Script Name:   ddl_gold.sql
+  Script Name:   gold_layer_views.sql
   Layer:         Gold Layer (Business & Analytics Layer)
   Project:       Layered Data Warehouse Architecture
 
@@ -56,7 +56,7 @@
 ===============================================================================*/
 
 --==================================================
--- GOLD VIEW: TEAMS (FACT View)
+-- GOLD VIEW: TEAMS (Dimension View)
 --==================================================
 IF OBJECT_ID('gold.teams', 'V') IS NOT NULL
 DROP VIEW gold.teams;
@@ -84,10 +84,10 @@ ON t.league_id = l.league_id
 
 GO
 
---================================CREATING DIMENTION TABLES==============================
+--================================Creating dimantion table==============================
 
 --==================================================
--- GOLD VIEW: STANDINGS (Dimention View)
+-- GOLD VIEW: STANDINGS (Fact View)
 --==================================================
 IF OBJECT_ID('gold.standings', 'V') IS NOT NULL
 DROP VIEW gold.standings;
@@ -96,18 +96,16 @@ GO
 
 CREATE VIEW gold.standings AS
 SELECT 
-	s.standing_id, 
-	s.season_id,
-	s.position,
 	s.team_id,
+	s.position,
 	s.played_games,
 	s.won,
 	s.draw,
 	s.lost,
 	s.goals_for,
 	s.goals_against,
-	s.goal_difference,
-	form,
+	s.goal_difference AS goals_difference,
+	s.form,
 	ss.year,
 	l.name AS league_name
 FROM silver.standings s
@@ -118,7 +116,7 @@ ON s.season_id = ss.season_id
 GO
 
 --==================================================
--- GOLD VIEW: MATCHES (DIMENTION View)
+-- GOLD VIEW: MATCHES (Fact View)
 --==================================================
 IF OBJECT_ID('gold.matches', 'V') IS NOT NULL
 DROP VIEW gold.matches;
@@ -161,4 +159,3 @@ SELECT
 	nationality AS player_nationality
 FROM silver.players
 GO
-
