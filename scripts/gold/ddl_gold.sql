@@ -1,5 +1,5 @@
 /*===============================================================================
-  Script Name:   gold_layer_views.sql
+  Script Name:   ddl_gold.sql
   Layer:         Gold Layer (Business & Analytics Layer)
   Project:       Layered Data Warehouse Architecture
 
@@ -56,7 +56,7 @@
 ===============================================================================*/
 
 --==================================================
--- GOLD VIEW: TEAMS (Dimension View)
+-- GOLD VIEW: TEAMS (FACT View)
 --==================================================
 IF OBJECT_ID('gold.teams', 'V') IS NOT NULL
 DROP VIEW gold.teams;
@@ -84,10 +84,10 @@ ON t.league_id = l.league_id
 
 GO
 
---================================Creating dimantion table==============================
+--================================CREATING DIMENTION TABLES==============================
 
 --==================================================
--- GOLD VIEW: STANDINGS (Fact View)
+-- GOLD VIEW: STANDINGS (Dimention View)
 --==================================================
 IF OBJECT_ID('gold.standings', 'V') IS NOT NULL
 DROP VIEW gold.standings;
@@ -118,7 +118,7 @@ ON s.season_id = ss.season_id
 GO
 
 --==================================================
--- GOLD VIEW: MATCHES (Fact View)
+-- GOLD VIEW: MATCHES (DIMENTION View)
 --==================================================
 IF OBJECT_ID('gold.matches', 'V') IS NOT NULL
 DROP VIEW gold.matches;
