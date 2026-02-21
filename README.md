@@ -1,4 +1,4 @@
-#🚀 End-to-End Data Warehouse, Analytics & BI Project
+# 🚀 End-to-End Data Warehouse, Analytics & BI Project
 
 ## 📌 Overview
 
