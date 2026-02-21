@@ -10,7 +10,7 @@ The warehouse transforms raw CSV soccer data into clean, structured, and analyti
 
 ## Architecture
 
-![Data Architecture](/docs/Data%Architecture.png)
+![Data Architecture](docs/Data%20Architecture.png)
 
 The warehouse is organized into three layers:
 
