@@ -34,8 +34,8 @@ The warehouse is organized into three layers:
 
 ## Folder Structure
 data-warehouse/
-│
-├── scripts/
+│/n
+├── scripts/ /n
 │ ├── bronze/
 │ ├── silver/
 │ ├── gold/
