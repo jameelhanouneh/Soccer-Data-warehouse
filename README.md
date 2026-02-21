@@ -168,13 +168,13 @@ The dashboard connects to the Gold Layer of the data warehouse to provide intera
 
 ### Dashboard Overview
 
-![Leagues Dashboard](powerbi/images/page 1.png)
+![Leagues Dashboard](powerbi/images/Page 1.PNG)
 
 This page provides a high-level summary of performance across leagues.
 
 ### Drill-Through Analysis
 
-![League Drillthrough](powerbi/images/page 2.png)
+![League Drillthrough](powerbi/images/Page 2.PNG)
 
 Users can drill into a selected league to analyze team-level metrics such as points, wins, goals, and rankings.
 
