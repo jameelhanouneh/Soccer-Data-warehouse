@@ -10,7 +10,7 @@ The warehouse transforms raw CSV soccer data into clean, structured, and analyti
 
 ## Architecture
 
-![Data Architecture](/docs/Data%20Architecture.png)
+![Data Architecture](/docs/Data%Architecture.png)
 
 The warehouse is organized into three layers:
 
@@ -28,7 +28,6 @@ The warehouse is organized into three layers:
 - Integrated and business-ready datasets
 - Analytical views optimized for reporting
 - Source for analytics and BI dashboards
-
 ![DataFlow](/docs/DataFlow.png)
 ---
 
