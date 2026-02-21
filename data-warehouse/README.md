@@ -28,7 +28,8 @@ The warehouse is organized into three layers:
 - Integrated and business-ready datasets
 - Analytical views optimized for reporting
 - Source for analytics and BI dashboards
-![DataFlow](/docs/DataFlow.png)
+- 
+![DataFlow](docs/DataFlow.png)
 ---
 
 ## Folder Structure
