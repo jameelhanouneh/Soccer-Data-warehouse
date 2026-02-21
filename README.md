@@ -1,17 +1,22 @@
-# ⚽ Soccer Data Warehouse & Analytics Project
+#🚀 End-to-End Data Warehouse, Analytics & BI Project
 
 ## 📌 Overview
 
-This project demonstrates the design and implementation of a modern data warehouse solution for soccer data using a multi-layer architecture approach (Bronze, Silver, Gold).
+This project demonstrates an end-to-end data solution covering the complete analytics pipeline:
 
-The goal was to transform raw CSV files into structured, analytics-ready datasets that support reporting and performance analysis.
+Raw Data → Data Warehouse → Analytics → Power BI Dashboard
 
-The project follows industry best practices in:
+The project transforms raw CSV soccer datasets into structured, analytics-ready data using SQL Server, followed by analytical reporting and interactive visualization using Power BI.
 
-- Data ingestion
-- Data cleaning and transformation
-- Data modeling
-- Data mart creation
+It follows modern data engineering and business intelligence best practices including:
+
+- Data ingestion and ETL pipelines
+- Medallion Architecture (Bronze → Silver → Gold)
+- Dimensional data modeling
+- Analytical SQL reporting
+- Interactive BI dashboards
+
+The goal is to simulate a real-world data workflow from data engineering to business intelligence delivery.
 
 ---
 
@@ -125,30 +130,53 @@ Includes:
 
 - Microsoft SQL Server
 - T-SQL
+- Power BI
 - Data Warehousing Concepts
 - ETL Processes
 - Dimensional Modeling
+- Data Visualization
 
 
 ---
 
 ## 🚀 Key Skills Demonstrated
 
-- Data Warehouse Design
-- ETL Development
-- Data Cleaning & Transformation
-- SQL Optimization
+- End-to-End Data Pipeline Development
+- Data Warehouse Architecture (Bronze, Silver, Gold)
+- ETL Development & Data Transformation
 - Dimensional Modeling
-- Analytical Data Preparation
+- Analytical SQL & KPI Development
+- Data Visualization with Power BI
+- Drill-Through & Interactive Reporting
+- Business Insights Generation
 
 ---
 
-## 🔮 Future Improvements
+## 📊 Power BI Dashboard
 
-- Add Power BI dashboards
-- Implement incremental data loading
-- Automate ETL pipeline
-- Add stored procedures for orchestration
+The final stage of the project focuses on business intelligence and visualization using Power BI.
+
+The dashboard connects to the Gold Layer of the data warehouse to provide interactive insights into league and team performance.
+
+### Key Features
+
+- KPI overview (Goals, Wins, Draws, Teams)
+- League performance comparison
+- Team rankings and statistics
+- Drill-through functionality for detailed league analysis
+- Interactive filters and slicers
+
+### Dashboard Overview
+
+![Leagues Dashboard](powerbi/images/page 1.png)
+
+This page provides a high-level summary of performance across leagues.
+
+### Drill-Through Analysis
+
+![League Drillthrough](powerbi/images/page 2.png)
+
+Users can drill into a selected league to analyze team-level metrics such as points, wins, goals, and rankings.
 
 ---
 
