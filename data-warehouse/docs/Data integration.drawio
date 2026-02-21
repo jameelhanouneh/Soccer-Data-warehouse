@@ -1,0 +1,194 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Page-1" id="AGHAR3mZewxlHmD4U-gg">
+    <mxGraphModel dx="3096" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-4" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="bronze.coaches" vertex="1">
+          <mxGeometry height="60" width="180" x="210" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-5" parent="IQaaEQ6zpDWFJz2Qmutv-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="coache_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="bronze.leagues" vertex="1">
+          <mxGeometry height="90" width="180" x="530" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-10" parent="IQaaEQ6zpDWFJz2Qmutv-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="league_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-13" parent="IQaaEQ6zpDWFJz2Qmutv-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="country_id" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-26" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="bronze.matches" vertex="1">
+          <mxGeometry height="180" width="180" x="-455" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-27" parent="IQaaEQ6zpDWFJz2Qmutv-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="match_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-28" parent="IQaaEQ6zpDWFJz2Qmutv-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="season_id" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-29" parent="IQaaEQ6zpDWFJz2Qmutv-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="league_id" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-31" parent="IQaaEQ6zpDWFJz2Qmutv-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="home_team_id" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-32" parent="IQaaEQ6zpDWFJz2Qmutv-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="away_team_id" vertex="1">
+          <mxGeometry height="30" width="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-35" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="bronze.players" vertex="1">
+          <mxGeometry height="90" width="180" x="-100" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-36" parent="IQaaEQ6zpDWFJz2Qmutv-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="player_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-37" parent="IQaaEQ6zpDWFJz2Qmutv-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="team_id" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-51" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="bronze.scores" vertex="1">
+          <mxGeometry height="60" width="180" x="-665" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-53" parent="IQaaEQ6zpDWFJz2Qmutv-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="match_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-58" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="bronze.seasons" vertex="1">
+          <mxGeometry height="90" width="180" x="-225" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-59" parent="IQaaEQ6zpDWFJz2Qmutv-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="season_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-60" parent="IQaaEQ6zpDWFJz2Qmutv-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="league_id" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-63" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="bronze.stadiums" vertex="1">
+          <mxGeometry height="60" width="180" x="210" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-64" parent="IQaaEQ6zpDWFJz2Qmutv-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="stadium_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-68" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="bronze.standings" vertex="1">
+          <mxGeometry height="150" width="180" x="1070" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-69" parent="IQaaEQ6zpDWFJz2Qmutv-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="standing_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-70" parent="IQaaEQ6zpDWFJz2Qmutv-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="season_id" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-71" parent="IQaaEQ6zpDWFJz2Qmutv-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="league_id" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-108" parent="IQaaEQ6zpDWFJz2Qmutv-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="team_id" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-94" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="bronze.teams" vertex="1">
+          <mxGeometry height="150" width="180" x="530" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-98" parent="IQaaEQ6zpDWFJz2Qmutv-94" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="stadium_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-99" parent="IQaaEQ6zpDWFJz2Qmutv-94" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="league_id" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-100" parent="IQaaEQ6zpDWFJz2Qmutv-94" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="coach_id" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-14" parent="IQaaEQ6zpDWFJz2Qmutv-94" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="team_id" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-106" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IQaaEQ6zpDWFJz2Qmutv-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-107" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="IQaaEQ6zpDWFJz2Qmutv-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-109" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="IQaaEQ6zpDWFJz2Qmutv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQaaEQ6zpDWFJz2Qmutv-117" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IQaaEQ6zpDWFJz2Qmutv-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="bronze.leagues" vertex="1">
+          <mxGeometry height="90" width="180" x="1380" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-2" parent="oMobUVbBSj4UDaGFxSN4-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="league_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-3" parent="oMobUVbBSj4UDaGFxSN4-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="country_id" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-4" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oMobUVbBSj4UDaGFxSN4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="bronze.seasons" vertex="1">
+          <mxGeometry height="90" width="180" x="1380" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-6" parent="oMobUVbBSj4UDaGFxSN4-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="season_id" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-7" parent="oMobUVbBSj4UDaGFxSN4-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="league_id" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-8" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oMobUVbBSj4UDaGFxSN4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-15" edge="1" parent="1" source="oMobUVbBSj4UDaGFxSN4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IQaaEQ6zpDWFJz2Qmutv-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="635" />
+              <mxPoint x="410" y="635" />
+              <mxPoint x="410" y="905" />
+              <mxPoint x="-530" y="905" />
+              <mxPoint x="-530" y="545" />
+            </Array>
+            <mxPoint x="-530" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-16" edge="1" parent="1" source="oMobUVbBSj4UDaGFxSN4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IQaaEQ6zpDWFJz2Qmutv-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="635" />
+              <mxPoint x="410" y="635" />
+              <mxPoint x="410" y="910" />
+              <mxPoint x="-490" y="910" />
+              <mxPoint x="-490" y="570" />
+              <mxPoint x="-455" y="570" />
+            </Array>
+            <mxPoint x="-530" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-18" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="IQaaEQ6zpDWFJz2Qmutv-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#6c8ebf, #ededed);strokeWidth=18;" value="" vertex="1">
+          <mxGeometry height="390" width="590" x="190" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 35px; color: light-dark(rgb(108, 142, 191), rgb(237, 237, 237));&quot;&gt;&lt;b style=&quot;&quot;&gt;Table: teams&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="350" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#fff2cc, #EDEDED);strokeWidth=18;" value="" vertex="1">
+          <mxGeometry height="320" width="590" x="1010" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 35px; color: light-dark(rgb(255, 217, 102), rgb(237, 237, 237));&quot;&gt;&lt;b style=&quot;&quot;&gt;Table: standings&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="310" x="1160" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#b1d0a3, #ededed);strokeWidth=18;" value="" vertex="1">
+          <mxGeometry height="250" width="675" x="-700" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#B1D0A3,#EDEDED);fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 35px; color: light-dark(rgb(177, 208, 163), rgb(237, 237, 237));&quot;&gt;&lt;b style=&quot;&quot;&gt;Table: matches&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="-487.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-26" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="oMobUVbBSj4UDaGFxSN4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMobUVbBSj4UDaGFxSN4-29" edge="1" parent="1" source="IQaaEQ6zpDWFJz2Qmutv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="oMobUVbBSj4UDaGFxSN4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pIS8nAsIY2G910PbcTp-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 57px;&quot;&gt;&lt;b&gt;Data Integration&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="610" x="180" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
